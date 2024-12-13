@@ -8,7 +8,7 @@ public:
     AlberoBinario() {}
 
     bool alberoVuoto() const {
-        return !presente[0];
+        return !presente[0];   // ! restituisce il valore contrario
     }
 
     void insRadice(const T& valore) {
