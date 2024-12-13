@@ -36,7 +36,7 @@ int main() {
         std::cout << "vuoto" << std::endl;
     }
 
-    // Rimozione del nodo 9 all'indice 8)
+    // Rimozione del nodo 9 all'indice 8
     albero.rimuovi(8);
 
     // Stampa della struttura del novo albero dopo la rimozione
