@@ -2,7 +2,7 @@ template <typename T>
 class AlberoBinario {
 private:
     T nodi[100];
-    bool presente[100] = {false};
+    bool presente[100] = {false}; 
 
 public:
     AlberoBinario() {}
