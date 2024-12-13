@@ -56,7 +56,7 @@ public:
 
     void rimuovi(int indice) {
         if (indice >= 0 && indice < 100 && presente[indice] && isFoglia(indice)) {
-            presente[indice] = false;
+            presente[indice] = false; 
         }
     }
 
